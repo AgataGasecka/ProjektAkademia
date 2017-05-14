@@ -1,0 +1,8 @@
+Agata G¹secka – temat projektu z Akademii C#
+
+Mój projekt ma byæ imitacj¹ systemu rejestracji w hotelu. Poprzez aplikacjê bêdzie mo¿na:
+•	zarezerwowaæ sobie pokój/pokoje 1,2,3 i 4 osobowe
+•	usun¹æ rezerwacjê,
+•	zmieniæ datê rezerwacji.
+Gdy wszystkie pokoje w danym czasie bêd¹ zajête, nie bêdzie mo¿liwoœci dokonania rezerwacji na ten sam termin. System poinformuje o komplecie zajêtych pokoi i zaproponuje najszybszy wolny termin.
+Wybrana technologia: Windows Form Application 
