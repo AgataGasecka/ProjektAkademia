@@ -1,8 +1,15 @@
 Agata G¹secka – temat projektu z Akademii C#
 
-Mój projekt ma byæ imitacj¹ systemu rejestracji w hotelu. Poprzez aplikacjê bêdzie mo¿na:
-•	zarezerwowaæ sobie pokój/pokoje 1,2,3 i 4 osobowe
+Mój projekt ma byæ systemem rejestracji w hotelu. Poprzez aplikacjê bêdzie mo¿na:
+•	za³o¿yæ sobie konto (imiê, nazwisko, adres, telefon kontaktowy, itd.),
+•	usun¹æ swoje konto,
+•	wyœwietliæ listê wolnych pokoi w wybranym terminie,
+•	zarezerwowaæ sobie pokój/pokoje 1,2,3 i 4 osobowe z mo¿liwoœci¹ wyboru obiadokolacji,
 •	usun¹æ rezerwacjê,
-•	zmieniæ datê rezerwacji.
-Gdy wszystkie pokoje w danym czasie bêd¹ zajête, nie bêdzie mo¿liwoœci dokonania rezerwacji na ten sam termin. System poinformuje o komplecie zajêtych pokoi i zaproponuje najszybszy wolny termin.
+•	zmieniæ datê rezerwacji, jeœli w nowym (zmienionym przez klienta) terminie, nie bêdzie wolnych miejsc, system zaproponuje najbli¿szy wolny termin pobytu dla okreœlonej wczeœniej liczby osób
+•	system wyœwietli koszty zarezerwowanego pobytu oraz zaproponuje rabat, jeœli dany klient zarezerwuje pobyt w hotelu po raz trzeci,
+•	system zaproponuje najbli¿szy wolny termin, jeœli w podanym przed klienta terminie wszystkie pokoje bêd¹ zajête,
+•	je¿eli dany termin jest niedostêpny z powodu braku wolnych pokoi, system zaproponuje mo¿liwoœæ zapisania preferencji (termin, iloœæ osób) i umieœci klienta na liœcie rezerwowej. W razie gdyby inny klient zrezygnowa³ z pobytu i zwolni³ pokój/pokoje w danym terminie - system powiadomi klienta z listy rezerwowej o wolnych pokojach w danym terminie.
+
+
 Wybrana technologia: Windows Form Application 
